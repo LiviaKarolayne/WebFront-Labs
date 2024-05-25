@@ -44,8 +44,8 @@ export default defineConfig({
 docker compose up -d
 ```
 
-4. Abre o navegador em [localhost:5173](http://127.0.0.1:5173);
-resultado esperado:
+4. Abre o navegador em [localhost:5173](http://127.0.0.1:5173), resultado esperado:
+
 ![resultado esperado](./doc/react_app_run.png)
 
 
