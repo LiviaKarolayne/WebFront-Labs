@@ -6,7 +6,7 @@ Este laboratório tem como objetivo aprimorar seus conhecimentos em HTML e CSS, 
 
 ## Orientações
 1. Todas as questões estão no arquivo [index.html](index.html);
-2. Crie um arquivo "style.css" na pasta "[assets/](./assets/)css";
+2. Crie os arquivos CSSs necessários na pasta [assets/](./assets/)css";
 3. Todas as respostas para as questões devem estar dentro do arquivo "style.css";
 4. Para este exercício, recomenda-se não fazer modificações no arquivo HTML, mas sim trabalhar exclusivamente com seletores no CSS.
 
