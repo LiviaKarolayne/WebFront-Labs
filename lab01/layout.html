@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout - Web Front</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            color: #000;
+        }
+
+        body {
+            background: rgba(0, 0, 0, .2);
+            height: calc(500px - 2px);
+            text-align: center;
+        }
+
+        header * {margin: 0 40px;}
+        header, footer {height: 8vh;}
+        main, header, footer, main section {width: 100%;}
+
+        main {height: 84vh;}
+        main section {height: 50%;}
+        main > div,
+        aside { width: 50%; }
+
+        header, section, aside, footer {border: 1px solid rgba(0, 0, 0, .5);}
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">LOGO</a>
+        <nav> nav </nav>
+    </header>
+
+    <main>
+        <div>
+            <section> section 1 </section>
+            <section> section 2 </section>
+        </div>
+
+        <aside> aside </aside>
+    </main>
+
+    <footer>footer</footer>
+</body>
+</html>
